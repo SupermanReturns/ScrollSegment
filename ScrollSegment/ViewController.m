@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "SegmentView.h"
+#import "ViewControllerOne.h"
+#import "ViewControllerTwo.h"
 
 @interface ViewController ()
 

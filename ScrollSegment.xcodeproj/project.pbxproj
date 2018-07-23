@@ -15,6 +15,9 @@
 		CF3710022105ACF700C37BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3710012105ACF700C37BB7 /* main.m */; };
 		CF37100C2105ACF700C37BB7 /* ScrollSegmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF37100B2105ACF700C37BB7 /* ScrollSegmentTests.m */; };
 		CF3710172105ACF700C37BB7 /* ScrollSegmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3710162105ACF700C37BB7 /* ScrollSegmentUITests.m */; };
+		CF3710262105B02800C37BB7 /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3710252105B02800C37BB7 /* SegmentView.m */; };
+		CF3710292105B04500C37BB7 /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3710282105B04500C37BB7 /* ViewControllerOne.m */; };
+		CF37102C2105B08200C37BB7 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF37102B2105B08200C37BB7 /* ViewControllerTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CF3710122105ACF700C37BB7 /* ScrollSegmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollSegmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3710162105ACF700C37BB7 /* ScrollSegmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollSegmentUITests.m; sourceTree = "<group>"; };
 		CF3710182105ACF700C37BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3710242105B02800C37BB7 /* SegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		CF3710252105B02800C37BB7 /* SegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
+		CF3710272105B04500C37BB7 /* ViewControllerOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		CF3710282105B04500C37BB7 /* ViewControllerOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		CF37102A2105B08200C37BB7 /* ViewControllerTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		CF37102B2105B08200C37BB7 /* ViewControllerTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				CF370FF32105ACF300C37BB7 /* AppDelegate.m */,
 				CF370FF52105ACF300C37BB7 /* ViewController.h */,
 				CF370FF62105ACF300C37BB7 /* ViewController.m */,
+				CF3710242105B02800C37BB7 /* SegmentView.h */,
+				CF3710252105B02800C37BB7 /* SegmentView.m */,
+				CF3710272105B04500C37BB7 /* ViewControllerOne.h */,
+				CF3710282105B04500C37BB7 /* ViewControllerOne.m */,
+				CF37102A2105B08200C37BB7 /* ViewControllerTwo.h */,
+				CF37102B2105B08200C37BB7 /* ViewControllerTwo.m */,
 				CF370FF82105ACF300C37BB7 /* Main.storyboard */,
 				CF370FFB2105ACF700C37BB7 /* Assets.xcassets */,
 				CF370FFD2105ACF700C37BB7 /* LaunchScreen.storyboard */,
@@ -264,6 +279,9 @@
 			files = (
 				CF370FF72105ACF300C37BB7 /* ViewController.m in Sources */,
 				CF3710022105ACF700C37BB7 /* main.m in Sources */,
+				CF3710292105B04500C37BB7 /* ViewControllerOne.m in Sources */,
+				CF37102C2105B08200C37BB7 /* ViewControllerTwo.m in Sources */,
+				CF3710262105B02800C37BB7 /* SegmentView.m in Sources */,
 				CF370FF42105ACF300C37BB7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
